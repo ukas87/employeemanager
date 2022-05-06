@@ -2,6 +2,7 @@ package pl.ukas.employeemanager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.ukas.employeemanager.exception.UserNotFoundException;
 import pl.ukas.employeemanager.model.Employee;
 import pl.ukas.employeemanager.repo.EmployeeRepository;
 
